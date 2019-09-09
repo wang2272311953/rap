@@ -17,6 +17,7 @@ public class Utils {
 	}
 	public static boolean isEmail(String email){
 		String f="^([a-zA-Z0-9]+)@([a-zA-Z0-9]+\\.)(com|cn)$";
+		
 		boolean matches = email.matches(f);
 		if (matches) {
 			return true;
